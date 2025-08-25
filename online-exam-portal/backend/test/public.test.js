@@ -32,6 +32,9 @@ test('Already added email in Student Register', async ()=> {
   mongoose.connection.close();
 })
 
+// trigger
+
+
 test('small password in student register', async ()=> {
   await request(app).post('/api/v1/public/register').send({
     'username':'testuser',
