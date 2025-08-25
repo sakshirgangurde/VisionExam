@@ -1,2 +1,15 @@
 # Auto detect text files and perform LF normalization
 * text=auto
+
+# Force GitHub Linguist to highlight JavaScript/React
+*.js linguist-detectable=true
+*.jsx linguist-detectable=true
+
+# Hide Python and other helper code from language stats
+*.py linguist-detectable=false
+*.ipynb linguist-detectable=false
+*.c linguist-detectable=false
+*.cpp linguist-detectable=false
+*.h linguist-detectable=false
+*.cy linguist-detectable=false
+*.f90 linguist-detectable=false
