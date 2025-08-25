@@ -1,0 +1,103 @@
+.form-class {
+  background-color: white;
+  padding: 50px 100px;
+}
+
+h2, .linkbtn {
+  color:black
+}
+
+/* Container and Form */
+.form-container {
+  max-width: 500px;
+  margin: 0 auto;
+  background-color: #f9f9f9;
+  padding: 40px;
+  border-radius: 8px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.form-heading {
+  color: #333;
+  font-size: 1.8rem;
+  margin-bottom: 20px;
+  font-weight: 600;
+}
+
+/* Form Group */
+.form-group {
+  width: 100%;
+  margin-bottom: 15px;
+}
+
+.form-group label {
+  font-size: 0.9rem;
+  color: #555;
+  margin-bottom: 5px;
+  display: block;
+}
+
+/* Input Styles */
+.form-input {
+  width: 100%;
+  padding: 12px;
+  font-size: 1rem;
+  color: #333;
+  background-color: #ffffff;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  transition: border-color 0.3s ease;
+  box-shadow: inset 0 2px 4px rgba(0, 0, 0, 0.05);
+}
+
+.form-input:focus {
+  border-color: #0056b3;
+  outline: none;
+}
+
+/* Submit Button */
+.submit-button {
+  width: 100%;
+  padding: 12px;
+  font-size: 1rem;
+  color: white;
+  background-color: #0056b3;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.submit-button:hover {
+  background-color: #003c82;
+}
+
+/* Back Button */
+.back-button {
+  display: inline-block;
+  color: #0056b3;
+  text-decoration: none;
+  font-size: 0.9rem;
+  margin-top: 15px;
+}
+
+.back-button:hover {
+  text-decoration: underline;
+}
+
+/* Hover Effects */
+.linkbtn {
+  color: #0056b3;
+  font-weight: 600;
+}
+
+.linkbtn:hover {
+  color: #003c82;
+}
+
+

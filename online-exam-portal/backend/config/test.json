@@ -1,0 +1,8 @@
+{
+  "mongodb": {
+      "connectionString": "mongodb+srv://final:final@cluster0.26cp3.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0/"
+  },
+  "jwt": {
+      "secret" : "Examination Portal Application test"
+  }
+}

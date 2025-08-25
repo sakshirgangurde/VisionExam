@@ -1,0 +1,156 @@
+/* Form container */
+.formClass {
+    margin: 20px auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 400px;
+    background: linear-gradient(135deg, #f0f8ff, #e6e6fa);
+    box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
+    border-radius: 12px;
+    padding: 30px;
+    border: none;
+    transition: all 0.3s ease;
+  }
+  
+  .formClass:hover {
+    box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.2);
+    transform: translateY(-2px);
+  }
+  
+  /* Title styling */
+  .formTitle {
+    font-size: 2em;
+    color: #4a4a4a;
+    font-weight: bold;
+    margin-bottom: 20px;
+    text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Input fields styling */
+  .inputfield {
+    width: 100%;
+    margin-bottom: 20px;
+  }
+  
+  .inputfield .MuiOutlinedInput-root {
+    border-radius: 8px;
+    background-color: #ffffff;
+  }
+  
+  .inputfield .MuiOutlinedInput-notchedOutline {
+    border-color: #8a2be2;
+  }
+  
+  .inputfield .MuiInputLabel-root {
+    color: #8a2be2;
+  }
+  
+  .inputfield .MuiOutlinedInput-root.Mui-focused .MuiOutlinedInput-notchedOutline {
+    border-color: #6a0dad;
+  }
+  
+  /* Button styling */
+  .btn {
+    width: 100%;
+    padding: 12px;
+    font-size: 1em;
+    font-weight: bold;
+    color: #ffffff;
+    background: linear-gradient(90deg, #8a2be2, #4b0082);
+    border-radius: 8px;
+    box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.15);
+    transition: all 0.3s ease;
+    margin-top: 10px;
+  }
+  
+  .btn:hover {
+    background: linear-gradient(90deg, #6a0dad, #4b0082);
+    box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.2);
+    transform: translateY(-3px);
+  }
+  
+
+  /* Form container */
+.formClass {
+    margin: 20px auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 400px;
+    background: linear-gradient(135deg, #f0f8ff, #e6e6fa);
+    box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
+    border-radius: 12px;
+    padding: 30px;
+    transition: box-shadow 0.3s ease, transform 0.3s ease;
+  }
+  
+  .formClass:hover {
+    box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.2);
+    transform: translateY(-2px);
+  }
+  
+  /* Title styling */
+  .formTitle {
+    font-size: 2em;
+    color: #4a4a4a;
+    font-weight: bold;
+    margin-bottom: 20px;
+    text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Input fields styling */
+  .inputfield {
+    width: 100%;
+    margin-bottom: 20px;
+  }
+  
+  .inputfield .MuiOutlinedInput-root {
+    border-radius: 8px;
+    background-color: #ffffff;
+  }
+  
+  .inputfield .MuiOutlinedInput-notchedOutline {
+    border-color: #8a2be2;
+  }
+  
+  .inputfield .MuiInputLabel-root {
+    color: #8a2be2;
+  }
+  
+  .inputfield .MuiOutlinedInput-root.Mui-focused .MuiOutlinedInput-notchedOutline {
+    border-color: #6a0dad;
+  }
+  
+  /* Button styling */
+  .btn {
+    width: 100%;
+    padding: 12px;
+    font-size: 1em;
+    font-weight: bold;
+    color: #ffffff;
+    background: linear-gradient(90deg, #8a2be2, #4b0082);
+    border-radius: 8px;
+    box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.15);
+    transition: background 0.3s ease, box-shadow 0.3s ease, transform 0.3s ease;
+    margin-top: 10px;
+  }
+  
+  .btn:hover {
+    background: linear-gradient(90deg, #6a0dad, #4b0082);
+    box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.2);
+    transform: translateY(-3px);
+  }
+  
+  /* Responsive Design */
+  @media (max-width: 500px) {
+    .formClass {
+      padding: 20px;
+      width: 90%;
+    }
+  
+    .formTitle {
+      font-size: 1.5em;
+    }
+  }
+  

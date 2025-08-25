@@ -1,0 +1,235 @@
+{
+    "weights": [
+      {
+        "name": "entry_flow/conv_in/filters",
+        "shape": [3, 3, 3, 32],
+        "dtype": "float32",
+        "quantization": {
+          "dtype": "uint8",
+          "scale": 0.005431825039433498,
+          "min": -0.7441600304023892
+        }
+      },
+      {
+        "name": "entry_flow/conv_in/bias",
+        "shape": [32],
+        "dtype": "float32"
+      },
+      {
+        "name": "entry_flow/reduction_block_0/separable_conv0/depthwise_filter",
+        "shape": [3, 3, 32, 1],
+        "dtype": "float32",
+        "quantization": {
+          "dtype": "uint8",
+          "scale": 0.005691980614381678,
+          "min": -0.6090419257388395
+        }
+      },
+      {
+        "name": "entry_flow/reduction_block_0/separable_conv0/pointwise_filter",
+        "shape": [1, 1, 32, 64],
+        "dtype": "float32",
+        "quantization": {
+          "dtype": "uint8",
+          "scale": 0.009089225881239947,
+          "min": -1.1179747833925135
+        }
+      },
+      {
+        "name": "entry_flow/reduction_block_0/separable_conv0/bias",
+        "shape": [64],
+        "dtype": "float32"
+      },
+      {
+        "name": "entry_flow/reduction_block_0/separable_conv1/depthwise_filter",
+        "shape": [3, 3, 64, 1],
+        "dtype": "float32",
+        "quantization": {
+          "dtype": "uint8",
+          "scale": 0.00683894624897078,
+          "min": -0.8138346036275228
+        }
+      },
+      {
+        "name": "entry_flow/reduction_block_0/separable_conv1/pointwise_filter",
+        "shape": [1, 1, 64, 64],
+        "dtype": "float32",
+        "quantization": {
+          "dtype": "uint8",
+          "scale": 0.011632566358528886,
+          "min": -1.3028474321552352
+        }
+      },
+      {
+        "name": "entry_flow/reduction_block_0/separable_conv1/bias",
+        "shape": [64],
+        "dtype": "float32"
+      },
+      {
+        "name": "entry_flow/reduction_block_0/expansion_conv/filters",
+        "shape": [1, 1, 32, 64],
+        "dtype": "float32",
+        "quantization": {
+          "dtype": "uint8",
+          "scale": 0.010254812240600587,
+          "min": -0.9229331016540528
+        }
+      },
+      {
+        "name": "entry_flow/reduction_block_0/expansion_conv/bias",
+        "shape": [64],
+        "dtype": "float32"
+      },
+      {
+        "name": "entry_flow/reduction_block_1/separable_conv0/depthwise_filter",
+        "shape": [3, 3, 64, 1],
+        "dtype": "float32",
+        "quantization": {
+          "dtype": "uint8",
+          "scale": 0.0052509616403018725,
+          "min": -0.6406173201168285
+        }
+      },
+      {
+        "name": "entry_flow/reduction_block_1/separable_conv0/pointwise_filter",
+        "shape": [1, 1, 64, 128],
+        "dtype": "float32",
+        "quantization": {
+          "dtype": "uint8",
+          "scale": 0.010788509424994973,
+          "min": -1.4564487723743214
+        }
+      },
+      {
+        "name": "entry_flow/reduction_block_1/separable_conv0/bias",
+        "shape": [128],
+        "dtype": "float32"
+      },
+      {
+        "name": "entry_flow/reduction_block_1/separable_conv1/depthwise_filter",
+        "shape": [3, 3, 128, 1],
+        "dtype": "float32",
+        "quantization": {
+          "dtype": "uint8",
+          "scale": 0.00553213918910307,
+          "min": -0.7025816770160899
+        }
+      },
+      {
+        "name": "entry_flow/reduction_block_1/separable_conv1/pointwise_filter",
+        "shape": [1, 1, 128, 128],
+        "dtype": "float32",
+        "quantization": {
+          "dtype": "uint8",
+          "scale": 0.013602388606351965,
+          "min": -1.6186842441558837
+        }
+      },
+      {
+        "name": "entry_flow/reduction_block_1/separable_conv1/bias",
+        "shape": [128],
+        "dtype": "float32"
+      },
+      {
+        "name": "entry_flow/reduction_block_1/expansion_conv/filters",
+        "shape": [1, 1, 64, 128],
+        "dtype": "float32",
+        "quantization": {
+          "dtype": "uint8",
+          "scale": 0.007571851038465313,
+          "min": -1.158493208885193
+        }
+      },
+      {
+        "name": "entry_flow/reduction_block_1/expansion_conv/bias",
+        "shape": [128],
+        "dtype": "float32"
+      },
+      {
+        "name": "middle_flow/main_block_0/separable_conv0/depthwise_filter",
+        "shape": [3, 3, 128, 1],
+        "dtype": "float32",
+        "quantization": {
+          "dtype": "uint8",
+          "scale": 0.005766328409606335,
+          "min": -0.6688940955143349
+        }
+      },
+      {
+        "name": "middle_flow/main_block_0/separable_conv0/pointwise_filter",
+        "shape": [1, 1, 128, 128],
+        "dtype": "float32",
+        "quantization": {
+          "dtype": "uint8",
+          "scale": 0.012136116214826995,
+          "min": -1.5776951079275094
+        }
+      },
+      {
+        "name": "middle_flow/main_block_0/separable_conv0/bias",
+        "shape": [128],
+        "dtype": "float32"
+      },
+      {
+        "name": "middle_flow/main_block_0/separable_conv1/depthwise_filter",
+        "shape": [3, 3, 128, 1],
+        "dtype": "float32",
+        "quantization": {
+          "dtype": "uint8",
+          "scale": 0.004314773222979377,
+          "min": -0.5652352922102984
+        }
+      },
+      {
+        "name": "middle_flow/main_block_0/separable_conv1/pointwise_filter",
+        "shape": [1, 1, 128, 128],
+        "dtype": "float32",
+        "quantization": {
+          "dtype": "uint8",
+          "scale": 0.01107162026798024,
+          "min": -1.2400214700137868
+        }
+      },
+      {
+        "name": "middle_flow/main_block_0/separable_conv1/bias",
+        "shape": [128],
+        "dtype": "float32"
+      },
+      {
+        "name": "middle_flow/main_block_0/separable_conv2/depthwise_filter",
+        "shape": [3, 3, 128, 1],
+        "dtype": "float32",
+        "quantization": {
+          "dtype": "uint8",
+          "scale": 0.0036451735917259667,
+          "min": -0.4848080876995536
+        }
+      },
+      {
+        "name": "middle_flow/main_block_0/separable_conv2/pointwise_filter",
+        "shape": [1, 1, 128, 128],
+        "dtype": "float32",
+        "quantization": {
+          "dtype": "uint8",
+          "scale": 0.008791744942758598,
+          "min": -1.134135097615859
+        }
+      },
+      {
+        "name": "middle_flow/main_block_0/separable_conv2/bias",
+        "shape": [128],
+        "dtype": "float32"
+      },
+      {
+        "name": "fc/age/weights",
+        "shape": [512, 1],
+        "dtype": "float32",
+        "quantization": {
+          "dtype": "uint8",
+          "scale": 0.002188407836750274,
+          "min": -0.4851350864769287
+        }
+      }
+    ]
+  }
+  
