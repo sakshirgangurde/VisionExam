@@ -13,5 +13,6 @@ The platform combines a **React frontend** with a **Node.js (Express) backend** 
 ## 🛠️ Tech Stack
 - **Frontend:** React.js, JavaScript, Python 
 - **Backend:** Node.js, Express.js  
-- **Database:** MongoDB  
-- **Other Tools:** OpenCV, Speech APIs  
+- **Database:** MongoDB
+- **Helper Scripts:** Python (for gesture detection, OpenCV, etc.)
+
